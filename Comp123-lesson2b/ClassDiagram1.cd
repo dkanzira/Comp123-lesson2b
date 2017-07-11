@@ -7,5 +7,12 @@
       <FileName>Human.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Comp123_lesson2b.SuperHuman">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuperHuman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
