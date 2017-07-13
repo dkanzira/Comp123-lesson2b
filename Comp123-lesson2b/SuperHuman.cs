@@ -79,7 +79,7 @@ namespace Comp123_lesson2b
         {
             string outputString = "";
             outputString += "===========================================================\n";
-            outputString += "SuperHamen Name:" + this.Name + "\n";
+            outputString += "SuperVillain Name:" + this.Name + "\n";
             outputString += "===========================================================\n";
 
             foreach (Power power in this.Powers)

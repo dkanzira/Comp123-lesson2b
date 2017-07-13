@@ -17,12 +17,20 @@ namespace Comp123_lesson2b
     {
         static void Main(string[] args)
         {
-            SuperHuman superHero = new SuperHuman("Super Dude");
-            superHero.AddPower("Spider Climbing", 50);
-            superHero.AddPower("Web Casting", 40);
-            superHero.AddPower("Phasing", 50);
-            superHero.AddPower("Invisibility", 30);
-            Console.WriteLine(superHero.ToString());   
+            //SuperHero superHero = new SuperHero("SuperDude" ,20);
+            //superHero.AddPower("Spider Climbing", 50);
+            //superHero.AddPower("Web Casting", 40);
+            //superHero.AddPower("Phasing", 50);
+            //superHero.AddPower("Invisibility", 30);
+            //Console.WriteLine(superHero.ToString());
+            //Console.WriteLine("Karma: "+ superHero.Karma);
+
+            SuperVillain superVillain = new SuperVillain("Buff Dude", 34);
+            superVillain.AddPower("Fireballs", 10);
+            superVillain.AddPower("Stinkbreath", 45);
+            superVillain.AddPower("Blinding smoke", 20);
+            Console.WriteLine(superVillain.ToString());
+            Console.WriteLine("Malice: "+superVillain.Malice);
          
         }
     }

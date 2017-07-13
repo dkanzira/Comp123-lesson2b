@@ -7,7 +7,7 @@
       <FileName>Human.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Comp123_lesson2b.SuperHuman" Collapsed="true">
+  <Class Name="Comp123_lesson2b.SuperHuman">
     <Position X="3.5" Y="0.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAkAAAAIAAAAAAACAABAAAIAABAAAA=</HashCode>
@@ -15,25 +15,40 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Comp123_lesson2b.Power">
-    <Position X="7" Y="0.5" Width="2" />
+    <Position X="7.75" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Comp123_lesson2b.SuperHero">
-    <Position X="7.75" Y="3.25" Width="1.5" />
+    <Position X="10.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SuperHero.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="Comp123_lesson2b.SuperVillain">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>SuperVillain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="Comp123_lesson2b.IHasKarma">
-    <Position X="10" Y="0.5" Width="1.5" />
+    <Position X="10.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasCarma.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Comp123_lesson2b.IHasMalice">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasMalice.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

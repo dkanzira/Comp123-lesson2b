@@ -12,7 +12,7 @@ using System.Text;
 namespace Comp123_lesson2b
 {
     /// <summary>
-    /// 
+    /// This is the Karma interf
     /// </summary>
     public class SuperHero : SuperHuman, IHasKarma
     {
@@ -36,10 +36,10 @@ namespace Comp123_lesson2b
         /// This the main constructor, it takes one Arguement - name(string)
         /// </summary>
         /// <param name="name"></param>
-        public SuperHero(string name)
+        public SuperHero(string name,int karma)
             :base(name)
         {
-            this._karma = Karma;
+            this.Karma = karma;
         }
         
     }
