@@ -39,7 +39,7 @@ namespace Comp123_lesson2b
         public SuperHero(string name)
             :base(name)
         {
-
+            this._karma = Karma;
         }
         
     }
