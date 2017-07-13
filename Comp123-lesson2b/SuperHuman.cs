@@ -7,8 +7,7 @@ using System.Text;
  * Name:Dennis Kanzira
  * Date:July 11 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
- * version: 0.4 - Added ovveriden method ToString
- * 
+ * version: 0.5 - Added Stub method DisplaySkills to conform to Human Abstract Method
 */
 namespace Comp123_lesson2b
 {
@@ -70,6 +69,7 @@ namespace Comp123_lesson2b
                     Console.WriteLine("Power:"+power.Name+"Rank:"+power.Rank);
                 }
         }
+        //PUBLIC OVERRIDE METHOD
         /// <summary>
         /// The ToString method overrides the built-in Object.ToString method.
         /// It outputs a string that displays the superhuman's name and their power list.
@@ -89,5 +89,12 @@ namespace Comp123_lesson2b
             outputString += "===========================================================\n";
             return outputString;
         }
+
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented");
+        }
+
+
     }
 }
