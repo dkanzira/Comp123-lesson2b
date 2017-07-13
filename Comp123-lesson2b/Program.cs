@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 /*
  * Name:Dennis Kanzira
  * Date:July 11 2017
- * Description: Demmo for lesson 9
- * version: 0.1 - Created the Program Class
- * 
+ * Description: Demo for lesson 9
+ * version: 0.3 - 
 */
 
 namespace Comp123_lesson2b
@@ -18,6 +17,13 @@ namespace Comp123_lesson2b
     {
         static void Main(string[] args)
         {
+            SuperHuman superHuman = new SuperHuman("Super Dude");
+            superHuman.AddPower("Spider Climbing", 50);
+            superHuman.AddPower("Web Casting", 40);
+            superHuman.AddPower("Phasing", 50);
+            superHuman.AddPower("Invisibility", 30);
+            Console.WriteLine(superHuman.ToString());   
+         
         }
     }
 }

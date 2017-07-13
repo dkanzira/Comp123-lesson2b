@@ -7,7 +7,7 @@ using System.Text;
  * Name:Dennis Kanzira
  * Date:July 11 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
- * version: 0.2 - Added _initialize method
+ * version: 0.4 - Added ovveriden method ToString
  * 
 */
 namespace Comp123_lesson2b
@@ -20,6 +20,13 @@ namespace Comp123_lesson2b
         //PRIVATE INSTANCE VARIABLES(FIELDS)
         private List<Power> _powers;
         //PUBLIC PROPERITIES
+        public List<Power> Powers{
+            get
+            {
+                return this._powers;
+            }
+
+            }
 
         //CONSTRUCTORS -----------------------------------------------------
         /// <summary>
@@ -43,5 +50,44 @@ namespace Comp123_lesson2b
         }
 
         //PUBLIC METHODS
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public void AddPower(string name, int rank)
+        {
+            this.Powers.Add(new Power(name, rank));
+        }
+        /// <summary>
+        /// This method displays 
+        /// </summary>
+        public void DisplayPowers()
+        {
+            foreach (Power power in this.Powers)
+                {
+
+                    Console.WriteLine("Power:"+power.Name+"Rank:"+power.Rank);
+                }
+        }
+        /// <summary>
+        /// The ToString method overrides the built-in Object.ToString method.
+        /// It outputs a string that displays the superhuman's name and their power list.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "===========================================================\n";
+            outputString += "SuperHamen Name:" + this.Name + "\n";
+            outputString += "===========================================================\n";
+
+            foreach (Power power in this.Powers)
+            {
+                outputString += "Power: " + power.Name + " Rank: " + power.Rank + "\n";
+            }
+            outputString += "===========================================================\n";
+            return outputString;
+        }
     }
 }
