@@ -7,7 +7,7 @@ using System.Text;
  * Name:Dennis Kanzira
  * Date:July 11 2017
  * Description: This is the Abstract Human class
- * version: 0.1 - Created the Program Class
+ * version: 0.1 - Added public abstract method DisplaySkills 
  * 
 */
 namespace Comp123_lesson2b
@@ -45,8 +45,7 @@ namespace Comp123_lesson2b
             this.Name = name;
         }
 
-        //PRIVATE METHODS
-
-        //PUBLIC METHODS
+        //PUBLIC ABSTRACT METHDS
+        public abstract void DisplaySkills();
     }
 }
